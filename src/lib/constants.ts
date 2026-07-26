@@ -3,7 +3,7 @@ import type { Service, PricingPackage, Testimonial, FAQItem, ServiceArea, Stat, 
 export const BUSINESS = {
   name: "GAutoDetailing",
   tagline: "Premium Mobile Auto Detailing",
-  phone: "(843) 555-0192",
+  phone: "+1 (843) 783-8680",
   email: "info@gautodetailing.com",
   instagram: "https://instagram.com/ga_autodetailing7",
   instagramHandle: "@ga_autodetailing7",
@@ -780,7 +780,7 @@ export const FAQS: FAQItem[] = [
   },
   {
     question: "How do I book an appointment?",
-    answer: "You can book through our website contact form, call or text us directly at (843) 555-0192, or send us a message on Instagram @ga_autodetailing7. We typically respond within a few hours and can often accommodate same-week appointments.",
+    answer: "You can book through our website contact form, call or text us directly at +1 (843) 783-8680, or send us a message on Instagram @ga_autodetailing7. We typically respond within a few hours and can often accommodate same-week appointments.",
     category: "Booking",
   },
   {

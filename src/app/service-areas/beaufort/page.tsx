@@ -19,7 +19,7 @@ const localFaqs = [
   { q: "Do you provide mobile auto detailing in Beaufort, SC?", a: "Yes! GAutoDetailing serves all of Beaufort, SC including the Historic District, Port Royal, Dataw Island, Lady's Island, Mossy Oaks, and Saint Helena Island. We come to you." },
   { q: "What areas of Beaufort do you serve?", a: "We serve the entire Beaufort area including the Historic District, Port Royal, Dataw Island, Mossy Oaks, Lady's Island, Saint Helena Island, and all surrounding neighborhoods. Zip codes: 29902, 29906, 29907." },
   { q: "Can you detail my car at Dataw Island?", a: "Yes! We regularly serve gated communities like Dataw Island. Just let us know your community and gate information when booking and we'll handle the rest." },
-  { q: "How do I book mobile car detailing in Beaufort, SC?", a: "Fill out our online booking form, call (843) 555-0192, or DM us on Instagram. We typically confirm Beaufort appointments within a few hours." },
+  { q: "How do I book mobile car detailing in Beaufort, SC?", a: "Fill out our online booking form, call +1 (843) 783-8680, or DM us on Instagram. We typically confirm Beaufort appointments within a few hours." },
   { q: "Do you offer interior detailing for military families near MCAS Beaufort?", a: "Yes! We proudly serve military families in the Beaufort area. Whether you're near MCAS Beaufort or Parris Island, we're happy to schedule service at your home or on-base housing." },
 ];
 

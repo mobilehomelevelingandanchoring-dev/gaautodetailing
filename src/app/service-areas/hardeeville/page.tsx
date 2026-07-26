@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const localFaqs = [
   { q: "Do you offer mobile auto detailing in Hardeeville, SC?", a: "Yes! GAutoDetailing serves all of Hardeeville, SC including neighborhoods like Argent Lakes, Riverton Pointe, Sun City, and the Historic District. We come directly to your location." },
   { q: "What's the best auto detailing service in Hardeeville?", a: "GAutoDetailing offers professional mobile auto detailing for Hardeeville residents — rated 4.9 stars with 100+ happy customers across the Lowcountry." },
-  { q: "How do I book a car detail in Hardeeville, SC?", a: "Simply fill out our online booking form, call (843) 555-0192, or message us on Instagram @ga_autodetailing7. We typically confirm appointments within a few hours." },
+  { q: "How do I book a car detail in Hardeeville, SC?", a: "Simply fill out our online booking form, call +1 (843) 783-8680, or message us on Instagram @ga_autodetailing7. We typically confirm appointments within a few hours." },
   { q: "How much does mobile car detailing cost in Hardeeville?", a: "Our Hardeeville detailing services start at $59 for an express detail and go up to $499+ for our ultimate package. Pricing depends on vehicle size and condition. Contact us for a free quote." },
   { q: "Do you serve Sun City Hilton Head area of Hardeeville?", a: "Yes! We serve Sun City Hilton Head and all Hardeeville communities. Being mobile means we come to your community entrance, home, or any convenient location." },
 ];
