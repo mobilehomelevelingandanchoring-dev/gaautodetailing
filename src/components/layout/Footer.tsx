@@ -1,10 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Phone,
   Mail,
   Instagram,
   MapPin,
-  Sparkles,
   ArrowRight,
   Star,
 } from "lucide-react";
@@ -84,9 +84,13 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2 space-y-6">
             <Link href="/" className="flex items-center gap-2.5">
-              <div className="w-9 h-9 rounded-xl bg-gold-gradient flex items-center justify-center shadow-gold">
-                <Sparkles className="w-5 h-5 text-black" />
-              </div>
+              <Image
+                src="/images/logo.webp"
+                alt="GAutoDetailing logo"
+                width={44}
+                height={44}
+                className="rounded-xl object-contain"
+              />
               <span className="text-lg font-bold text-white">
                 G<span className="bg-gold-gradient bg-clip-text text-transparent">Auto</span>Detailing
               </span>

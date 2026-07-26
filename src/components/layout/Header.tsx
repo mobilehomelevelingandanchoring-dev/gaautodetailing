@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -9,7 +10,6 @@ import {
   X,
   Phone,
   ChevronDown,
-  Sparkles,
   Instagram,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -52,14 +52,17 @@ export function Header() {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-9 h-9 rounded-xl bg-gold-gradient flex items-center justify-center shadow-gold">
-                <Sparkles className="w-5 h-5 text-black" />
-              </div>
-              <div>
-                <span className="text-lg font-bold text-white tracking-tight">
-                  G<span className="bg-gold-gradient bg-clip-text text-transparent">Auto</span>Detailing
-                </span>
-              </div>
+              <Image
+                src="/images/logo.webp"
+                alt="GAutoDetailing logo"
+                width={44}
+                height={44}
+                className="rounded-xl object-contain"
+                priority
+              />
+              <span className="text-lg font-bold text-white tracking-tight">
+                G<span className="bg-gold-gradient bg-clip-text text-transparent">Auto</span>Detailing
+              </span>
             </Link>
 
             {/* Desktop Navigation */}
